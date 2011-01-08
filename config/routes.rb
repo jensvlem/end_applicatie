@@ -1,4 +1,6 @@
 EndApplicatie::Application.routes.draw do
+  resources :students
+
   resources :users
 
   get "demo/index"
