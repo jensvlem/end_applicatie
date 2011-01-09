@@ -1,4 +1,8 @@
 EndApplicatie::Application.routes.draw do
+  resources :vakkens
+
+  resources :docentens
+
   resources :students
 
   resources :users
